@@ -1,0 +1,14 @@
+[en]
+  languageCode = "en"
+  languageName = "English"
+  weight = 1
+  title = "MI0POM - Amateur Radio"
+
+[en.params]
+  displayName = "EN"
+  rtl = false
+
+[en.params.author]
+  name = "Megan Taggart"
+  headline = "Amateur Radio Operator MI0POM"
+  bio = "Exploring amateur radio through projects, experiments, and shared learning experiences. Building antennas, working DX, and enjoying the hobby."

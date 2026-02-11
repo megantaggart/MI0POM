@@ -1,0 +1,44 @@
+# PaperMod Theme Configuration
+
+title = "MI0POM - Amateur Radio"
+description = "Amateur Radio Projects and Adventures"
+
+[author]
+  name = "Megan Taggart"
+
+# Enable search
+[outputs]
+  home = ["HTML", "JSON"]
+
+# Site parameters for PaperMod
+[params]
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  
+  [params.homeInfoParams]
+    Title = "Welcome to MI0POM"
+    Content = """Amateur Radio Operator and Projects
+    
+    This site lists projects, blog posts, and equipment."""
+
+  [params.socialIcons]
+    [[params.socialIcons.icons]]
+      name = "github"
+      url = "https://github.com/"
+    [[params.socialIcons.icons]]
+      name = "email"
+      url = "mailto:mi0pom@example.com"
+
+# Article settings
+showDate = true
+showAuthor = true
+
+# Lists
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showCards = true
+

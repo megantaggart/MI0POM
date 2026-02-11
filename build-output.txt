@@ -1,0 +1,16 @@
+WARN  Module "blowfish" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run "hugo mod graph" for more information.
+Start building sites … 
+hugo v0.155.3-8a858213b73907e823e2be2b5640a0ce4c04d295 linux/amd64 BuildDate=2026-02-08T16:40:42Z VendorInfo=gohugoio
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 31 
+ Paginator pages  │  0 
+ Non-page files   │  2 
+ Static files     │  8 
+ Processed images │  0 
+ Aliases          │  8 
+ Cleaned          │  0 
+
+Total in 95 ms
