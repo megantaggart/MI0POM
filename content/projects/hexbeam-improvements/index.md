@@ -5,6 +5,8 @@ draft: false
 description: "Enhancements and modifications to the homemade HexBeam antenna system"
 tags: ["antenna", "HF", "beam", "homebrew", "VHF"]
 categories: ["projects"]
+ShowToc: true
+disableAnchoredHeadings: true
 cover:
   image: "hexbeam-background.png"
   alt: "HexBeam antenna diagram"
@@ -23,19 +25,7 @@ The existing HexBeam antenna features:
 - **Rotation**: Yaesu rotator with custom Arduino controller
 - **Construction**: Full homemade build including controller software
 
-## Improvement Goals
+## Improvements
 
-This project focuses on:
-- Performance optimization across all bands
-- Controller software enhancements
-- Mechanical stability improvements
-- Enhanced band coverage options
+* use of fibre glass poles and mastraint cord to make very strong lightweight antenna
 
-More details coming soon as the project develops...
-
-## Related Equipment
-
-- **Transceiver**: Flex Radio 6400
-- **Tuner**: Flex Tuner Genius
-- **Antenna Tuner**: MFJ Antenna Tuner (backup)
-- **Rotator**: Yaesu rotator with Arduino control

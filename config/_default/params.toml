@@ -3,20 +3,15 @@
 title = "MI0POM - Amateur Radio"
 description = "Amateur Radio Projects and Adventures"
 
-[author]
-  name = "Megan Taggart"
-
-# Enable search
-[outputs]
-  home = ["HTML", "JSON"]
-
 # Site parameters for PaperMod
 [params]
+  author = "Megan Taggart"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
+  ShowToc = true
   
   [params.homeInfoParams]
     Title = "Welcome to MI0POM"
@@ -31,6 +26,10 @@ description = "Amateur Radio Projects and Adventures"
     [[params.socialIcons.icons]]
       name = "email"
       url = "mailto:mi0pom@example.com"
+
+# Enable search
+[outputs]
+  home = ["HTML", "JSON"]
 
 # Article settings
 showDate = true
