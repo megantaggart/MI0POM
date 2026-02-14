@@ -7,10 +7,7 @@ tags: ["antenna", "HF", "beam", "homebrew", "VHF"]
 categories: ["projects"]
 ShowToc: true
 disableAnchoredHeadings: true
-cover:
-  image: "hexbeam-background.png"
-  alt: "HexBeam antenna diagram"
-  relative: true
+backgroundImage: "/hexbeam-background.png"
 ---
 
 # HexBeam Improvements

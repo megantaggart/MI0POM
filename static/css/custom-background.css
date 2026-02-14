@@ -1,0 +1,88 @@
+/**
+ * Custom styles for background images with overlay content
+ * This adds background image support to pages with cover images
+ */
+
+/* Home page (_index.md) - background image with overlay */
+.home-bg-hero {
+  position: relative;
+  min-height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/MI0POM_anim_qsl_card.gif') center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-bg-hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  color: white;
+}
+
+.home-bg-hero .sub-title {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 1rem;
+}
+
+/* Project page - background image with overlay */
+.project-bg-hero {
+  position: relative;
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('/hexbeam-background.png') center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  margin: -40px -20px 40px -20px;
+  padding: 40px 20px;
+}
+
+.project-bg-hero h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  color: white;
+  width: 100%;
+}
+
+/* Fallback for browsers that don't support background-attachment: fixed */
+@supports not (background-attachment: fixed) {
+  .home-bg-hero,
+  .project-bg-hero {
+    background-attachment: scroll;
+  }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .home-bg-hero {
+    min-height: 250px;
+  }
+
+  .home-bg-hero h1 {
+    font-size: 2rem;
+  }
+
+  .home-bg-hero .sub-title {
+    font-size: 1rem;
+  }
+
+  .project-bg-hero {
+    min-height: 300px;
+    margin: -30px -15px 30px -15px;
+    padding: 30px 15px;
+  }
+
+  .project-bg-hero h1 {
+    font-size: 1.8rem;
+  }
+}

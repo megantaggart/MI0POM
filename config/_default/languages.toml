@@ -7,4 +7,6 @@
 [en.params]
   displayName = "EN"
   rtl = false
-  author = "Megan Taggart"
+
+[en.params.author]
+  name = "Megan Taggart"

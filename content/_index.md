@@ -3,10 +3,7 @@ title: "Welcome to MI0POM"
 date: 2026-02-10
 draft: false
 description: "Amateur Radio Projects and Adventures"
-cover:
-  image: "MI0POM_anim_qsl_card.gif"
-  alt: "MI0POM QSL Card"
-  relative: false
+backgroundImage: "/MI0POM_anim_qsl_card.gif"
 layout: "single"
 ---
 

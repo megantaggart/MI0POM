@@ -1,0 +1,26 @@
+/* Background image support */
+html {
+    width: 100%;
+}
+
+html[lang] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body[data-bg-image] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Override PaperMod width constraints for full-width background */
+body[data-bg-image] .main {
+    max-width: 100% !important;
+    width: 100% !important;
+}

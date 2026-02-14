@@ -1,43 +1,44 @@
-# PaperMod Theme Configuration
+# -- Theme Parameters --
+# Congo Theme Configuration
 
-title = "MI0POM - Amateur Radio"
-description = "Amateur Radio Projects and Adventures"
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
 
-# Site parameters for PaperMod
-[params]
-  author = "Megan Taggart"
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  ShowToc = true
-  
-  [params.homeInfoParams]
-    Title = "Welcome to MI0POM"
-    Content = """Amateur Radio Operator and Projects
-    
-    This site lists projects, blog posts, and equipment."""
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
 
-  [params.socialIcons]
-    [[params.socialIcons.icons]]
-      name = "github"
-      url = "https://github.com/"
-    [[params.socialIcons.icons]]
-      name = "email"
-      url = "mailto:mi0pom@example.com"
+[header]
+  layout = "basic"
+  showTitle = true
 
-# Enable search
-[outputs]
-  home = ["HTML", "JSON"]
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
 
-# Article settings
-showDate = true
-showAuthor = true
+[homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 10
 
-# Lists
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showWordCount = false
+
 [list]
-  showBreadcrumbs = true
+  showBreadcrumbs = false
   showSummary = true
-  showCards = true
+  showTableOfContents = false
+  groupByYear = false
 
